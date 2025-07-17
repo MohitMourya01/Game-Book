@@ -15,7 +15,7 @@ __pycache__/ # Python cache directories
 *.dylib
 *.dll
 *.exe
-
+.env
 # Dependency directories
 /node_modules/ # Node.js
 /vendor/ # PHP, some Python/Ruby setups
