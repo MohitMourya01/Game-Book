@@ -1,0 +1,103 @@
+# Generic Backend Ignores
+
+# Compiled/Build artifacts
+/dist/
+/build/
+/target/
+*.class # Java compiled files
+*.pyc # Python compiled files
+__pycache__/ # Python cache directories
+*.o
+*.lo
+*.la
+*.al
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Dependency directories
+/node_modules/ # Node.js
+/vendor/ # PHP, some Python/Ruby setups
+/venv/ # Python virtual environments
+/env/ # Python virtual environments (common alternative)
+.env/ # Python virtual environments (common alternative)
+.gradle/ # Java (Gradle)
+/bin/ # Executables
+/sdist/
+/var/
+/eggs/
+*.egg
+*.egg-info/
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+*.iml # IntelliJ IDEA module files
+.idea/ # IntelliJ IDEA project files
+.vscode/ # VS Code settings
+.project # Eclipse project files
+.classpath # Eclipse classpath files
+.settings/ # Eclipse settings
+.pytest_cache/ # Python pytest cache
+.mypy_cache/ # Python mypy cache
+.coverage # Python coverage reports
+htmlcov/ # Python coverage HTML reports
+.tox/ # Python tox environments
+
+# Environment variables and sensitive data
+.env # Common for environment variables
+.env.* # Specific environment files like .env.local, .env.development
+config/secrets.exs # Elixir/Phoenix (example, adjust for your framework)
+*.key
+*.pem
+*.p12
+*.crt
+*.csr
+*.jks
+*.kdb
+*.config.json # E.g., sensitive config files
+*.db # SQLite databases (e.g., db.sqlite3 for Django development)
+/uploads/ # User uploaded files (if not stored in S3/cloud storage)
+
+# Operating System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# IDE Specific (add/remove as needed)
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.dbmdl
+*.jfm
+*.pfx
+*.tfsproj
+*.tfsuser
+*.tlog
+*.vspscc
+*.vssscc
+*.vster
+*.vcxproj.filters
+*.sync
+*.zip
+*_

@@ -1,0 +1,84 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+/public/build # If your build output goes into a 'build' folder inside 'public'
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.vscode/ # VS Code specific settings/files
+.idea/ # IntelliJ IDEA specific settings/files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.parcel-cache
+.eslintcache
+.cache/
+*.log
+
+# mac
+.DS_Store
+
+# editor specific
+*.sublime-project
+*.sublime-workspace
+
+# Next.js specific (if you are using Next.js, otherwise can be removed)
+.next/
+out/ # default output directory for `next export`
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Gatsby specific (if you are using Gatsby, otherwise can be removed)
+.cache/
+/public/ # Gatsby's default public folder, which contains generated static assets
+/plugins/
+.env.*
+
+# Storybook specific (if you are using Storybook, otherwise can be removed)
+.storybook-build/
+storybook-static/
+
+# Other potential temporary or generated files
+*.tmp
+*.bak
